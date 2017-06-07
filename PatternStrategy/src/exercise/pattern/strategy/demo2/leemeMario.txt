@@ -1,0 +1,37 @@
+Este es un muy buen ejemplo de strategy patter,
+es aconsejable verlo con detalle.
+
+Il pattern Strategy consente di poter variare gli 
+algoritmi possibili per la risoluzione di un problema.  
+Gli algoritmi possono variate in maniera 
+indipendente dalla strategia che li utilizza, se ne 
+possono aggiungere di altri di volta in volta.
+Il meccanismo del pattern prevede che i 
+meccanismi fondamentali e ricorrenti degli 
+algoritmi vengono astratti nella classe Strategy.
+Il pattern Strategy è di tipo c
+omportamentale
+
+Problema affrontato
+===================
+Dare la possibilità di variare le strategie per risolvere un 
+problema in maniera agevole
+
+Applicabilità
+================
+Utilizzare il pattern Strategy 
+quando:
+• Ci sono diverse classi simili che differiscono nel loro 
+comportamento per un determinato metodo. 
+Ripensandole come Strategie il pattern offre la possibilità 
+di raggrupparle e di rendelre facilmente intercambiabili..
+• Ci sono differenti varianti di uno stesso algoritmo
+• Un algoritmo usa dati che i client non dovrebbero 
+conoscere. Il pattern strategy consente di non esporre 
+queste strutture dati
+• Una classe definisce diversi comportamenti che vengono 
+attivati in conseguenza di istruzioni condizionali (if ... 
+else), da spostare nelle rispettive classi Strategy
+
+Rappresenta un esempio di OOP: 
+composizione con delegazione, disaccopiamento strategy/utilizzatori
